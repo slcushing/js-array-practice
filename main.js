@@ -45,10 +45,9 @@ const dogsReversed = dogs.slice().reverse();
 
 // Put your answer below -------------------------
 
-
-
-
-
+var rando = [3, 33, '', undefined, null, 86, 79, NaN, false];
+var filteredFalsy = rando.filter(Boolean);
+console.log(filteredFalsy);
 
 
 
@@ -64,6 +63,10 @@ const dogsReversed = dogs.slice().reverse();
 
 // Put your answer below -------------------------
 
+
+const myArray = [['name', 'Charlie'], ['color', 'brown'], ['age', 10]];
+const object = Object.fromEntries(myArray);
+console.log(object);
 
 
 
