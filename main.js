@@ -24,6 +24,11 @@
 // Put your answer below -------------------------
 
 
+const dogs = ['Jack', 'Sophia', 'Zeke']
+
+const dogsReversed = dogs.slice().reverse();
+     console.log(dogsReversed);
+
 
 
 
