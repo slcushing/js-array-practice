@@ -6,7 +6,9 @@
 // Put your answer below -------------------------
 
 
-
+Array.from({length: 10}, () => {
+    return 'Vinny';
+});
 
 
 
@@ -85,7 +87,9 @@ console.log(object);
 
 // Put your answer below -------------------------
 
-
+const numbers = [1,2,3,4,5,4,3];
+const uniqueNumbers = [...new Set(numbers)];
+console.log(uniqueNumbers);
 
 
 
@@ -106,8 +110,8 @@ console.log(object);
 
 // Put your answer below -------------------------
 
-
-
+const arr1 = [1,2,3,4,5];
+const arr2 = [1,2,3,4];
 
 
 
