@@ -110,10 +110,11 @@ console.log(uniqueNumbers);
 
 // Put your answer below -------------------------
 
-const arr1 = [1,2,3,4,5];
-const arr2 = [1,2,3,4];
+const array1 = [1,2,3,4,5];
+const array2 = [1,2,3,4];
 
-
+array1.sort().join(',') === array2.sort().join(',');
+    
 
 
 
@@ -140,8 +141,18 @@ const arr2 = [1,2,3,4];
 
 // Put your answer below -------------------------
 
+// var arr = [0,1,2,[3,4]];
+// var newNew = [].concat(...arr);
+// console.log(newNew);
+// Doesn't work with super subbed arrays
 
 
+
+var arr = [0, 1, 2, [[[3, 4]]]];
+var newNew = arr.toString().split(',');
+console.log(newNew);
+
+// splits it to an array of strings but not an array of numbers
 
 
 
