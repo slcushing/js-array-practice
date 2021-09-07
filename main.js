@@ -113,7 +113,7 @@ console.log(uniqueNumbers);
 const array1 = [1,2,3,4,5];
 const array2 = [1,2,3,4];
 
-array1.sort().join(',') === array2.sort().join(',');
+
     
 
 
@@ -171,7 +171,13 @@ console.log(newNew);
 // Put your answer below -------------------------
 
 
+var array = [1,2,3,4,5,6,7,8,9];
+var newArr = [], size = 3;
 
+for (let i=0; i < array.length; i += size)
+    newArr.push(array.slice(i,i + size));
+
+console.log(newArr);
 
 
 
