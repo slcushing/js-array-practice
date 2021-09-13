@@ -110,10 +110,19 @@ console.log(uniqueNumbers);
 
 // Put your answer below -------------------------
 
-const array1 = [1,2,3,4,5];
-const array2 = [1,2,3,4];
 
-
+function arrEquality(array1, array2) {
+    if(array1.length !== array2.length) {
+        return false;
+    } else {
+        for (let i=0; i<array1.length; i++){
+            if (!array2.includes(array1[i])){
+                return false;
+            }
+        }
+        return true;
+    }
+}
     
 
 
